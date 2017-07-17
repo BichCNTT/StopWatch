@@ -29,8 +29,8 @@ public class MyAsyncTask extends AsyncTask<Void, Integer, Void> {
     protected void onProgressUpdate(Integer... values) {
         super.onProgressUpdate(values);
         int value = values[0];
-        TextView textView = (TextView) activity.findViewById(R.id.text_milliseconds);
-        textView.setText(value);
+//        TextView textView = (TextView) activity.findViewById(R.id.text_milliseconds);
+//        textView.setText(value);
     }
 
 
